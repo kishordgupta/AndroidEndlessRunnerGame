@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/main_menu_screen"
+	android:gravity="center_vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:orientation="vertical"
+		android:layout_marginTop="40dp">
+		
+				<Button android:layout_height="wrap_content"
+   android:layout_width="wrap_content" android:background="@drawable/button"
+   android:id="@+id/startGame" android:text="Play"
+   android:textColor="#FFFFFF" android:textSize="18dp"
+   android:textStyle="bold"></Button>
+		
+	<Button android:layout_height="wrap_content"
+   android:layout_width="wrap_content" android:background="@drawable/button"
+   android:id="@+id/options" android:text="Options"
+   android:textColor="#FFFFFF" android:textSize="18dp"
+   android:textStyle="bold"></Button>
+   
+   <Button android:layout_height="wrap_content"
+   android:layout_width="wrap_content" android:background="@drawable/button"
+   android:id="@+id/aboutthegamebutton" android:text="About the Game"
+   android:textColor="#FFFFFF" android:textSize="18dp"
+   android:textStyle="bold"></Button>
+   
+   	<Button android:layout_height="wrap_content"
+   android:layout_width="wrap_content" android:background="@drawable/button"
+   android:id="@+id/exit" android:text="Quit"
+   android:textColor="#FFFFFF" android:textSize="18dp"
+   android:textStyle="bold"></Button>
+						
+
+		
+
+	</LinearLayout>
+</LinearLayout>

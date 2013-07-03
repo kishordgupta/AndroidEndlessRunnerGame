@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/main_menu_screen"
+	android:gravity="center_vertical" android:scrollbars="vertical|horizontal">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:orientation="vertical" android:scrollbars="vertical|horizontal">
+
+		<TextView android:id="@+id/spacequest" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Space quest"
+			android:textSize="12px" android:textStyle="italic" android:typeface="serif"></TextView>
+		
+		<TextView android:id="@+id/aboutgame" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Simple game play. Game starts with touching the thief out from a door for another door. Collect points from the stars in the sky by avoiding obstacles. Many obstacles in the space some will cheer your journey and some will hamper your journey even can end your life. Control the thief by using the touch. So, best of luck on your journey..............wow u really read that, how much time u can waste, this game is a shit, of it and do some productive work, u retard. " android:singleLine="false"
+			android:maxLines="80" android:textSize="8px" android:textStyle="italic" android:typeface="serif"></TextView>
+		
+
+	
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:background="@drawable/button"
+			android:id="@+id/back" android:text="Back"
+			android:textColor="#FFFFFF" android:textSize="18dp"
+			android:textStyle="bold"></Button>
+
+	</LinearLayout>
+
+
+
+
+</LinearLayout>
